@@ -6,6 +6,7 @@
   "license": "MIT",
   "description": "logger utility",
   "scripts": {
+    "prepare": "yarn build",
     "preversion": "yarn lint",
     "prepublishOnly": "yarn lint",
     "build": "yarn lint && tsc",
