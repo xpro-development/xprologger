@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xpro/logger"
+    "url": "https://github.com/xpro-development/logger"
   },
   "author": "km@xpro.dev",
   "private": false,
   "bugs": {
-    "url": "https://github.com/xpro/logger/issues"
+    "url": "https://github.com/xpro-development/logger/issues"
   },
   "devDependencies": {
     "@types/colors": "^1.2.1",
