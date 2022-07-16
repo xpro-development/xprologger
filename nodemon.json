@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "lib/**/*.ts"
+  ],
+  "execMap": {
+    "ts": "ts-node"
+  }
+}

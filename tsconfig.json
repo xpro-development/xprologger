@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "target": "ES5",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "pretty": true,
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "lib",
+    "listEmittedFiles": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist/**/*"
+  ]
+}
