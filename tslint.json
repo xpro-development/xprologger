@@ -8,6 +8,7 @@
     "ter-arrow-parens": false,
     "align": false,
     "space-before-function-paren": false,
-    "import-name": false
+    "import-name": false,
+    "no-shadowed-variable": false
   }
 }

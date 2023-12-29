@@ -1,6 +1,6 @@
 {
-  "name": "@xpro-development/logger",
-  "version": "1.0.2",
+  "name": "@kmdeveloping/logger",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xpro-development/logger"
+    "url": "https://github.com/kmdeveloping/logger"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
@@ -27,7 +27,7 @@
   "author": "km@xpro.dev",
   "private": false,
   "bugs": {
-    "url": "https://github.com/xpro-development/logger/issues"
+    "url": "https://github.com/kmdeveloping/logger/issues"
   },
   "devDependencies": {
     "@types/colors": "^1.2.1",
@@ -36,6 +36,8 @@
     "@types/module-alias": "^2.0.1",
     "@types/node": "^20.0.0",
     "@types/node-emoji": "^1.8.1",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
     "module-alias": "^2.2.2",
     "prettier": "^3.0.0",
     "ts-node": "^10.9.1",

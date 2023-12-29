@@ -32,7 +32,6 @@ class ConsoleTransport extends Transport<Config> {
 
   public constructor(unsafeConfig: Config) {
     const config = { ...defaultConfig, ...unsafeConfig };
-
     super(config);
   }
 
@@ -55,20 +54,18 @@ class ConsoleTransport extends Transport<Config> {
     return console.log.bind(console);
   }
 
-  public log({ message, level }: { message: string; level: string }) {
-    let msg = message;
-
+  public log = ({ message, level }: { message: string; level: string }): string => {
     const logToConsole = this.getConsoleMethod(level);
 
     if (this.config.colorize) {
       // @ts-ignore
-      msg = colors[level](message);
+      message = colors[level](message);
     }
 
-    logToConsole(`${msg}\n`);
+    logToConsole(`${message}\n`);
 
-    return msg;
-  }
+    return message;
+  };
 }
 
 export default ConsoleTransport;
